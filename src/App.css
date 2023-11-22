@@ -1,0 +1,105 @@
+.app {
+  background: url(https://www.legaltoday.com/wp-content/uploads/2021/05/campo-futbol.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.cards-container {
+  width: 1270px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  margin: 4.5px;
+  height: calc(97px - 15px);
+  width: calc(118px - 15px);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card-image {
+  height: calc(97px - 15px);
+  width: calc(118px - 15px);
+}
+
+.bg-7 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.hit-the-floor {
+  margin: 10px;
+  color: rgb(15, 15, 15);
+  font-size:3em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+  
+.hit-the-floor {
+  text-align: center;
+}
+
+.click {
+  background: #57a4ff;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  padding: 0 20px;
+  margin: 10px;
+  display: flex;
+}
+
+.click h1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.crono-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0;
+  background: #57a4ff;
+  height: 3em;
+  width: 9em;
+}
+
+.crono-container h1 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.crono-container button {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-right: 1px solid #000;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #57a4ff;
+  cursor: pointer;
+}
